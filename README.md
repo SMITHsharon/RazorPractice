@@ -1,5 +1,5 @@
 # RazorPractice
-==============
+
 ## Set Up
 **Scaffold your application in Visual Studio:**
  1. File > New > Project (ctrl + shift + n)
