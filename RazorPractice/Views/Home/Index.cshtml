@@ -29,7 +29,22 @@
             WriteLiteral("<div>");
             Write(Greeting + ", " + userName);
             WriteLiteral("</div>");
+        }
 
+        @{ 
+            DateTime today = DateTime.Now;
+
+            WriteLiteral("<div>");
+            if (today.DayOfWeek == DayOfWeek.Friday)
+            {
+                WriteLiteral("TGIF!");
+            }
+            else
+            {
+                WriteLiteral("Rats ... Not Friday Yet ... ");
+                Write("It's only " + today.DayOfWeek);
+            }
+            WriteLiteral("</div>");
         }
     </div>
 
