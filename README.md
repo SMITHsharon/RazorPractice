@@ -1,4 +1,5 @@
 # RazorPractice
+```https://gist.github.com/copypastedeveloper/980d23c1871c9b8fc41fba35f5405aaf```
 
 ## Set Up
 **Scaffold your application in Visual Studio:**
